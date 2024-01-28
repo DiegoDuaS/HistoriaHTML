@@ -1,1 +1,88 @@
-<!-- Este es un comentario en HTML. -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historia Lab 3</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Cute+Font&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Cute+Font&family=Shadows+Into+Light&display=swap');
+        
+        body {
+            font-family: "Archivo Narrow", sans-serif;
+            background-color: #E8E8E8;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center; 
+            margin: 0; 
+        }
+
+        h1{
+            color: white;
+            padding: 20px 0; 
+            background-color: #1C4B97;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        aside {
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;
+            flex-wrap: wrap; 
+        }
+
+        aside .opcion {
+            text-align: center;
+            margin: 10px;
+        }
+
+        aside img {
+            width: 200px; 
+            margin: 5px; 
+        }
+
+        footer {
+            font-family: "Shadows Into Light", cursive;
+            text-align: center;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>¡ESCALAS!</h1>
+        <p>La siguiente experiencia te llevará a una competencia por el mundo. Al explorar diferentes rincones del planeta, tendrás que realizar diferentes desafíos para llegar al final antes que tus contrincantes. ¡MUCHA SUERTE!</p>
+    </header>  
+
+    <article>
+        <h2>CARRERAS DISPONIBLES:</h2>
+        <aside>
+            <figure class="opcion">
+                <img src="imagenes/america.png" alt="America">
+                <figcaption><a href="america/americaindex.html">AMERICA</a></figcaption>
+                <p> ALASKA -> ARGENTINA</p>
+            </figure>
+            <figure class="opcion">
+                <img src="imagenes/europa.png" alt="Europa">
+                <figcaption><a href="europa/europaindex.html">EUROPA</a></figcaption>
+                <p> PORTUGAL -> RUSIA</p>
+            </figure>
+            <figure class="opcion">
+                <img src="imagenes/asia.png" alt="Asia">
+                <figcaption><a href="asia/asiaindex.html">ASIA</a></figcaption>
+                <p> ARABIA SAUDITA -> JAPON</p>
+            </figure>
+        </aside>
+    </article>
+
+    <footer>
+        <p>«VIAJAR ES UNA BRUTALIDAD. TE OBLIGA A CONFIAR EN EXTRAÑOS Y A PERDER DE VISTA TODO LO QUE TE RESULTA FAMILIAR Y CONFORTABLE DE TUS AMIGOS Y TU CASA. ESTÁS TODO EL TIEMPO EN DESEQUILIBRIO. NADA ES TUYO EXCEPTO LO MÁS ESENCIAL: EL AIRE, LAS HORAS DE DESCANSO, LOS SUEÑOS, EL MAR, EL CIELO; TODAS AQUELLAS COSAS QUE TIENDEN HACIA LO ETERNO O HACIA LO QUE IMAGINAMOS COMO TAL.» – CESARE PAVESE</p>
+    </footer>
+</body>
+</html>
