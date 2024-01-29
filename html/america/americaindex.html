@@ -18,23 +18,57 @@
             color: white;
             padding: 30px 0;
             margin: 0;
+            text-indent: 20px;
         }
         p{
             margin: 40; 
+        }
+        aside {
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;
+            flex-wrap: wrap; 
+        }
+
+        aside .opcion {
+            text-align: center;
+            margin: 10px;
+        }
+
+        aside img {
+            width: 500px; 
+            margin: 5px; 
         }
     </style>
 </head>
 <body>
     <header>
-        <h1> AMERICA</h1>
+        <h1> CARRERA AMERICANA</h1>
     </header>
-    <p> Esta carrera lleva a través de los vastos paisajes de América. Desde las selvas tropicales de América Central hasta las montañas nevadas 
+
+    <p> Esta carrera te lleva a través de los vastos paisajes de América. Desde las selvas tropicales de América Central hasta las montañas nevadas 
         de América del Norte, te enfrentarás a desafíos que probarán tus habilidades de supervivencia y resistencia. Junto a ti está tu 
-        compañero de equipo, listo para enfrentar los desafíos que se presenten en esta carrera. </p>
-    <p>La competencia empieza en la helada tierra de Alaska. Tu primer desafío consiste en atravesar los vastos glaciares y enfrentarte a 
-        las condiciones extremas del Ártico. La resistencia y el trabajo en equipo serán clave mientras te abres camino a través de este 
-        paisaje desafiante. Tras avanzar durante horas, llegas a un punto crítico en el camino. Frente a ti se dividen dos caminos: 
-        uno parece conducir a través de un túnel de hielo, mientras que el otro rodea la montaña por un sendero estrecho y escarpado.<br><br>
-        Tu equipo debe tomar una decisión rápida. ¿Cuál camino eliges?</p>
+        compañero de equipo, listo para enfrentar los desafíos que se presenten en esta carrera. Hay otro equipo en esta carrera, ellos intentrán todo para derrotarlos. </p>
+
+    <article>
+        <p>La competencia empieza en la helada tierra de Alaska. Tu primer desafío consiste en atravesar los vastos glaciares y enfrentarte a 
+            las condiciones extremas del Ártico. La resistencia y el trabajo en equipo serán clave mientras te abres camino a través de este 
+            paisaje desafiante. Tras avanzar durante horas, llegas a un punto crítico en el camino. Frente a ti se dividen dos caminos: 
+            uno parece conducir a través de un túnel de hielo, mientras que el otro rodea la montaña por un sendero estrecho y escarpado.<br><br>
+            Tu equipo debe tomar una decisión rápida. ¿Cuál camino eliges?</p>
+            <aside>
+                <figure class="opcion">
+                    <img src="imagenes/cueva.jpg" alt="Cueva">
+                    <figcaption><a href="early/tunel.html">Túnel de hielo</a></figcaption>
+                </figure>
+                <figure class="opcion">
+                    <img src="imagenes/montana.jpg" alt="Montana">
+                    <figcaption><a href="early/montana.html">Rodear la montañaa</a></figcaption>
+                </figure>
+            </aside>
+
+    </article>    
+    
+    
 </body>
 </html>
